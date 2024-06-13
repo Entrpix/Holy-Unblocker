@@ -7,7 +7,9 @@ import { createServer } from "node:http";
 import express from "express";
 
 import { hostname } from "node:os";
-import { join } from "node:path";
+
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
 
 const app = express();
 
@@ -16,10 +18,10 @@ app.use("/uv/", express.static(uvPath));
 app.use("/epoxy/", express.static(epoxyPath));
 app.use("/baremux/", express.static(baremuxPath));
 
-// app.use((req, res) => {
-//     res.status(404);
-//     res.sendFile(join(publicPath, "404.html"));
-// });
+ app.use((req, res) => {
+     res.status(404);
+     res.sendFile("public/404.html", { root: dirname(fileURLToPath(import.meta.url)) });
+});
 
 const server = createServer();
 
