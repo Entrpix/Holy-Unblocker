@@ -1,5 +1,3 @@
 node_modules
-.gitpod.yml
-.vscode
-.gitattributes
-.well-known
+package-lock.json
+pnpm-lock.yaml
