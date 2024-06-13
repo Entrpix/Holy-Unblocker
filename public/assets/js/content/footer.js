@@ -15,7 +15,7 @@ document.getElementById("footer").innerHTML = `
         <h3>About</h3>
         <ul>
             <li><a target="_blank" href="https://github.com/entrpix/Holy-Unblocker">GitHub</a></li>
-            <li><a href="/pages/nav/credits.html">Credits</a></li>
+            <li><a href="/pages/other/credits.html">Credits</a></li>
         </ul>
     </div>
 </div>

@@ -11,11 +11,14 @@ $ npm start
 ```
 
 ## TODO
-- [X] Fix Server
-- [X] Re-write HTML
-- [X] Deobfuscate
-- [ ] Fix Web-Proxies
-- [ ] Fix Games
+- [X] Deobfuscation
+- [X] Fix Things?
+- [X] Add about:blank Cloaker
+- [X] Fix UV
+- [X] Fix Server (UV)
+- [ ] Add RH 
+- [ ] Update Games
+- [ ] Fix games
 
 ## Credit
 - QuiteAFancyEmerald - Original Developer of Holy Unblocker

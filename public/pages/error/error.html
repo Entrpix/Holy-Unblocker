@@ -2,9 +2,10 @@
 <html>
 
 <head>
+    <base href="/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Holy Unblocker</title>
+    <title>Holy Unblocker | Error</title>
     <meta name="description" content="Holy Unblocker is a secure web proxy service with support for many sites. Bypass filters and freely enjoy a safer private browsing experience or unblock websites on devices such as Chromebooks and at places like school or work without downloading anything."
     />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e">
@@ -12,28 +13,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <script defer="defer" src="/assets/js/particles/tsparticles.js"></script>
 </head>
 
 <body>
-    <iframe id="frame" allow="fullscreen" autofocus></iframe>
-    <script>
-        var search = decodeURIComponent(window.location.search).substring(1).split("&");
-        var queries = {};
-        for (var i = 0; i < search.length; i++) {
-            var p = search[i].split("=");
-            queries[p[0]] = p[1];
-        }
-
-        document.getElementById("frame").src = localStorage.getItem("huframesrc");
-
-    </script>
-    <script src="/uv/uv.bundle.js"></script>
-    <script src="/uv/uv.config.js"></script>
-    <script src="/assets/js/register-sw.js"></script>
-    <script>
-        registerSW();
-    </script>
+    <div id="particles-js" class="fullwidth"></div>
+    <div id="mainbody" class="fullwidth">
+        <div class="box-error text-center">
+            <h1>Site Error!</h1>
+            <p>Might be doing some maintenance or the web server is down.</p>
+            <p>In that case wait a bit until it is resolved!</p>
+            <br>
+            <p>Invalid URL? View the <a href="/pages/other/faq.html" class="bluelink">FAQ page</a> for help!</p>
+        </div>
+    </div>
+    <div id="footer" class="fullwidth"></div>
     <script src="/assets/js/csel.js"></script>
+    <script src="/assets/js/content/footer.js"></script>
+    <script defer="defer" src="/assets/js/particles/particles.js"></script>
 </body>
 
 </html>

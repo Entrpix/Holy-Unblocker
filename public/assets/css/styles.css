@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700");
-@import url("https://unpkg.com/@fortawesome/fontawesome-free@5.15.4/css/all.min.css");
+@import url("/assets/css/all.min.css");
 
 /*
 Nord Theme (https://nordtheme.com)
@@ -627,6 +627,10 @@ details[open] summary {
 
 #csel .cselbutton:active {
     background-color: #78b0c0;
+}
+
+#cselab {
+    background-color: #88c0d0;
 }
 
 #csel #cselreset {
