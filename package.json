@@ -1,8 +1,8 @@
 {
-    "name": "holyub",
+    "name": "holy-unblocker-rewrite",
     "version": "5.0.0",
     "repository": "https://github.com/entrpix/Holy-Unblocker",
-    "description": "HU-Legacy Revived?",
+    "description": "Re-Write of the original Holy Unblocker",
     "main": "server.js",
     "type": "module",
 
