@@ -16,7 +16,7 @@ $ npm start
 - [X] Add about:blank Cloaker
 - [X] Fix UV
 - [X] Fix Server (UV)
-- [ ] Add RH 
+- [X] Add RH 
 - [ ] Update Games
 - [ ] Fix games
 

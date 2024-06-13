@@ -2,7 +2,7 @@ const se = "https://google.com/search?q=%s";
 const proxy = localStorage.getItem('proxy');
 const url = localStorage.getItem('url');
 
-if (!proxy) {
+if (proxy) {
   localStorage.setItem('proxy', 'uv');
 };
 

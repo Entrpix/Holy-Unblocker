@@ -11,7 +11,7 @@ async function fixUv() {
 
 if (proxy === 'uv') {
     fixUv();
-};
+}
 
 document.getElementById('frame');
 const url = localStorage.getItem('url');
