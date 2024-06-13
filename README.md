@@ -5,7 +5,8 @@ This is a re-write of the original [Holy Unblocker](https://github.com/quiteafan
 ```sh
 $ git clone https://github.com/entrpix/holy-unblocker
 $ cd holy-unblocker
-$ npm i
+$ pnpm i
+# Make sure you are using Node v16
 $ npm start
 # For SSL check-out https://github.com/entrpix/nginxssl
 ```
