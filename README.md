@@ -21,11 +21,24 @@ $ npm start
 - [ ] Update Games
 - [ ] Fix games
 
-## Credit
+## Developers
 - QuiteAFancyEmerald - Original Developer of Holy Unblocker
 - OlyB - Original Developer of Holy Unblocker
-- Scaratek (Me!) - Rewrite Holy Unblocker to up-to-date
-- Divide - TompHTTP
-- Binary Person - Rammerhead
-- Titanium Network - Ultraviolet
-- Mercury Workshop - Wisp, Epoxy
+- Scaratek (Me!) - Rewrote Holy Unblocker to up-to-date
+
+## Tech-Stack
+- Rammerhead 
+    - Binary Person - Creator of Rammerhead
+    - Nebula Services - Rammerhead Implementation
+- bare-server-node
+    - Divide - Developer
+    - TompHTTP - Specification
+- wisp-server-node
+    - Rafflesia - Developer
+    - Mercury Workshop - Wisp Protocol
+- Ultraviolet
+    - Titanium Network - Developer
+- epoxy-transport
+    - Developer - Mercury Workshop
+- bare-mux 
+    - Developer - Mercury Workshop
