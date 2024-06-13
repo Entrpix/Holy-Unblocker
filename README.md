@@ -8,7 +8,7 @@ $ cd holy-unblocker
 $ pnpm i
 # Make sure you are using Node v16
 $ npm start
-# For SSL check-out https://github.com/entrpix/nginxssl
+# For SSL edit `config.json`
 ```
 
 ## TODO
